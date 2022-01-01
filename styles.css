@@ -1,0 +1,34 @@
+/* styles.css */
+.circle{
+  width: 254px;
+  }
+
+.close{
+  margin-top: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  color: black;
+  border-radius: 14px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.wrapper{
+  border-radius: 50%;
+  display: flex;
+  -webkit-app-region: drag;
+
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  width: 190px;
+  height: 190px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Add styles here to customize the appearance of your app */
