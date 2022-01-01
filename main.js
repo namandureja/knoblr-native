@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
 const isDev = require('electron-is-dev');
+require('v8-compile-cache');
 
 if (require('electron-squirrel-startup')) return app.quit();
 // var server = require("./server/server");

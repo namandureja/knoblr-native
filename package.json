@@ -21,7 +21,8 @@
   "dependencies": {
     "electron-is-dev": "^2.0.0",
     "electron-squirrel-startup": "^1.0.0",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "v8-compile-cache": "^2.3.0"
   },
   "config": {
     "forge": {

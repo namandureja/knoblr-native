@@ -1,9 +1,11 @@
 /* styles.css */
-.circle{
+#circle{
   width: 254px;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
   }
 
-.close{
+#close{
   margin-top: 10px;
   background-color: white;
   font-family: sans-serif;
